@@ -736,7 +736,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
-  transform: ${({isOpen:c})=>c?"rotate(180deg)":"rotate(0deg)"};
+  transform: ${({isOpen:c})=>"rotate(180deg)"};
   color: ${({theme:c})=>c.text};
 `,mQ=y3.div`
   display: flex;
