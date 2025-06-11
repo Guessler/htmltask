@@ -9,6 +9,7 @@ export default class App extends React.Component{
   render () {
       return (
           <Sidebar color='light' />
+          // <Sidebar color='dark' />
       )
   }
 }
