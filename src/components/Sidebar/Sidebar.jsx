@@ -183,7 +183,7 @@ const ToggleButton = styled.div`
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
-  transform: ${({ isOpen }) => (isOpen ? 'rotate(180deg)' : 'rotate(0deg)')};
+  transform: ${({ isOpen }) => (isOpen ? 'rotate(180deg)' : 'rotate(180deg)')};
   color: ${({ theme }) => theme.text};
 `;
 
